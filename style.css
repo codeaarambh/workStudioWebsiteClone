@@ -1,0 +1,83 @@
+@font-face {
+  font-family: big;
+  src: url(fonts/Freight\ Big\ Pro\ Light.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.loader {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 999;
+}
+.yellow1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f3e41a;
+  position: absolute;
+  z-index: 8;
+}
+.yellow2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f3e41a;
+  position: absolute;
+  z-index: 8;
+}
+.loader h1 {
+  font-weight: 300;
+  font-size: 6vw;
+  line-height: 4.8vw;
+  letter-spacing: -2px;
+  position: relative;
+  z-index: 9;
+  font-family: big;
+}
+.loader video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  z-index: 7;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f3e41a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: big;
+}
+.page1 h1 {
+  font-weight: 300;
+  font-size: 6vw;
+  line-height: 4.8vw;
+  letter-spacing: -2px;
+}
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+.page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
